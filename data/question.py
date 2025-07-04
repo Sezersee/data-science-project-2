@@ -10,7 +10,7 @@ def connect_db():
     port=5432,
     database="postgres",
     user="postgres",
-    password="postgres") 
+    password="postgres")
     return conn
 
 
@@ -108,7 +108,7 @@ def question_10_query():
     connection = connect_db()
     cursor = connection.cursor()
     cursor.execute('SELECT c.course_name, ROUND(AVG(s.age), 2) AS average_age FROM courses c JOIN enrollments e ON c.course_id = e.course_id JOIN students s ON e.student_id = s.student_id GROUP BY c.course_name;')
-    data = cursor.fetchall() 
+    data = cursor.fetchall()
     cursor.close()
     connection.close()
     return data
@@ -148,7 +148,7 @@ def question_14_query():
     connection = connect_db()
     cursor = connection.cursor()
     cursor.execute("SELECT s.first_name , s.last_name  FROM courses AS c RIGHT JOIN enrollments AS e ON c.course_id=e.course_id RIGHT JOIN students AS s ON s.student_id=e.student_id WHERE c.course_name='SQL Temelleri' OR c.course_name='İleri SQL' GROUP BY s.student_id HAVING COUNT(s.student_id)>1;")
-    data = cursor.fetchall() 
+    data = cursor.fetchall()
     cursor.close()
     connection.close()
     return data

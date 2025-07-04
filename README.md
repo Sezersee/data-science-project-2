@@ -47,13 +47,13 @@ query course_name ve instructor name kolonunu instructor_name şeklinde dönmeli
 query tüm kolonları dönmelidir.
 * question_10_query fonksiyonun içerisinde `Kurslara göre ortalama öğrenci yaşı nedir?` işlemini gerçekleştirecek sql querysini yazınız.
 query course_name ve yaşların ortalamasını avg_age ismiyle dönmelidir.
-* question_11_query fonksiyonu içerisinde `Öğrenci başına toplam kaç kursa kayıtlı olduklarını listele.` işlemini gerçekleştirecek sql querysini yazınız.
+* question_11_query fonksiyonu içerisinde `Öğrenci başına toplam kaç kursa kayıtlı olduklarını listele.` işlemini gerçekleştirecek sql querysini yazınız. 
 query first_name, last_name ve toplam kurs sayısını total_courses ismiyle dönmelidir.
 * question_12_query fonksiyonu içerisinde `Birden fazla kurs veren öğretmenleri listele.` işlemini gerçekleştirecek sql querysini yazınız.
 query instructor_name, ve toplam kurs sayısını total_courses ismiyle dönmelidir.
 * question_13_query fonksiyonu içerisinde `Kurslara göre kaç farklı öğrenci kayıtlı?` işlemini gerçekleştirecek sql querysini yazınız.
 query course_name ve farklı öğrenci sayısını unique_students ismiyle dönmelidir.
-* question_14_query  fonksiyonu içerisinde `Hem ‘SQL Temelleri’ hem de ‘İleri SQL’ kursuna kayıtlı öğrencileri bul.` işlemini gerçekleştirecek sql querysini yazınız.
+* question_14_query  fonksiyonu içerisinde `Hem ‘SQL Temelleri’ hem de ‘İleri SQL’ kursuna kayıtlı öğrencileri bul.` işlemini gerçekleştirecek sql querysini yazınız. 
 query öğrenciye ait first_name ve last_name kolonlarını dönmelidir.
-* question_15_query  fonksiyonu içerisinde `Kurs, öğretmen ve öğrenciyi birleştirerek kayıt tarihlerini listele.` işlemini gerçekleştirecek sql querysini yazınız.
+* question_15_query  fonksiyonu içerisinde `Kurs, öğretmen ve öğrenciyi birleştirerek kayıt tarihlerini listele.` işlemini gerçekleştirecek sql querysini yazınız. 
 query öğrenciye ait first_name, last_name, course_name, instructor_name ve enrollment_date kolonlarını dönmelidir.
